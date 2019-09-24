@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Toggle class": {
+		"prefix": "toggleClass",
+		"body": [
+"// jQuery",
+"// $$el.toggleClass(className);",
+"",
+"// Native",
+"el.classList.toggle(className);",
+		],
+		"description": "YDNjQ - Toggle class"
+	}
+}

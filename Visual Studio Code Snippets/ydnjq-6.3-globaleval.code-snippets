@@ -1,0 +1,21 @@
+{
+	"YDNjQ - Globaleval: Execute some JavaScript code globally.": {
+		"prefix": "globaleval",
+		"body": [
+"// jQuery",
+"// $.globaleval(code);",
+"",
+"// Native",
+"function Globaleval(code) {",
+"  const script = document.createElement('script');",
+"  script.text = code;",
+"",
+"  document.head.appendChild(script).parentNode.removeChild(script);",
+"}",
+"",
+"// Use eval, but context of eval is current, context of $.Globaleval is global.",
+"eval(code);",
+		],
+		"description": "YDNjQ - Globaleval: Execute some JavaScript code globally."
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Set style": {
+		"prefix": "css-set",
+		"body": [
+"// jQuery",
+"// $$el.css({ color: '#f01' });",
+"",
+"// Native",
+"el.style.color = '#f01';",
+		],
+		"description": "YDNjQ - Set style"
+	}
+}

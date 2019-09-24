@@ -1,0 +1,20 @@
+{
+	"YDNjQ - Offset: Get the current coordinates of the element relative to the document.": {
+		"prefix": "offset",
+		"body": [
+"// jQuery",
+"// $$el.offset();",
+"",
+"// Native",
+"function getOffset(el) {",
+"  const box = el.getBoundingClientRect();",
+"",
+"  return {",
+"    top: box.top + window.pageYOffset - document.documentElement.clientTop,",
+"    left: box.left + window.pageXOffset - document.documentElement.clientLeft",
+"  };",
+"}",
+		],
+		"description": "YDNjQ - Offset: Get the current coordinates of the element relative to the document."
+	}
+}

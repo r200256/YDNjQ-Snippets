@@ -1,0 +1,19 @@
+{
+	"YDNjQ - FadeToggle: Display or hide the element by animating their opacity.": {
+		"prefix": "fadeToggle",
+		"body": [
+"// jQuery",
+"// $$el.fadeToggle();",
+"",
+"// Native",
+"el.style.transition = 'opacity 3s';",
+"const { opacity } = el.ownerDocument.defaultView.getComputedStyle(el, null);",
+"if (opacity === '1') {",
+"  el.style.opacity = '0';",
+"} else {",
+"  el.style.opacity = '1';",
+"}",
+		],
+		"description": "YDNjQ - FadeToggle: Display or hide the element by animating their opacity."
+	}
+}

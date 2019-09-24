@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Query by attribute": {
+		"prefix": "attribute",
+		"body": [
+"// jQuery",
+"// $('a[target=_blank]');",
+"",
+"// Native",
+"document.querySelectorAll('a[target=_blank]');",
+		],
+		"description": "YDNjQ - Query by attribute"
+	}
+}

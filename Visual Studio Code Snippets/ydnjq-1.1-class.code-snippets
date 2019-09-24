@@ -1,0 +1,16 @@
+{
+	"YDNjQ - Query by class": {
+		"prefix": "class",
+		"body": [
+"// jQuery",
+"// $('.class');",
+"",
+"// Native",
+"document.querySelectorAll('.class');",
+"",
+"// or",
+"document.getElementsByClassName('class');",
+		],
+		"description": "YDNjQ - Query by class"
+	}
+}

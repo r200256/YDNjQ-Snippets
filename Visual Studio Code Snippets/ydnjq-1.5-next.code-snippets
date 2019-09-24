@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Next sibling": {
+		"prefix": "next",
+		"body": [
+"// jQuery",
+"// $$el.next();",
+"",
+"// Native",
+"el.nextElementSibling;",
+		],
+		"description": "YDNjQ - Next sibling"
+	}
+}

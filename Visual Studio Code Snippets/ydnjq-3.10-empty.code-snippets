@@ -1,0 +1,13 @@
+{
+	"YDNjQ - empty: Remove all child nodes": {
+		"prefix": "empty",
+		"body": [
+"// jQuery",
+"// $$el.empty();",
+"",
+"// Native",
+"el.innerHTML = null;",
+		],
+		"description": "YDNjQ - empty: Remove all child nodes"
+	}
+}

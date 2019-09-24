@@ -1,0 +1,20 @@
+{
+	"YDNjQ - Trigger": {
+		"prefix": "trigger",
+		"body": [
+"// jQuery",
+"// $(el).trigger('custom-event', {key1: 'data'});",
+"",
+"// Native",
+"if (window.CustomEvent) {",
+"  const event = new CustomEvent('custom-event', {detail: {key1: 'data'}});",
+"} else {",
+"  const event = document.createEvent('CustomEvent');",
+"  event.initCustomEvent('custom-event', true, true, {key1: 'data'});",
+"}",
+"",
+"el.dispatchEvent(event);",
+		],
+		"description": "YDNjQ - Trigger"
+	}
+}

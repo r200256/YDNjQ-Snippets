@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Contains: Check to see if a DOM element is a descendant of another DOM element.": {
+		"prefix": "contains",
+		"body": [
+"// jQuery",
+"// $.contains(el, child);",
+"",
+"// Native",
+"el !== child && el.contains(child);",
+		],
+		"description": "YDNjQ - Contains: Check to see if a DOM element is a descendant of another DOM element."
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"YDNjQ - SlideToggle: Display or hide the element with a sliding motion.": {
+		"prefix": "slideToggle",
+		"body": [
+"// jQuery",
+"// $$el.slideToggle();",
+"",
+"// Native",
+"const originHeight = '100px';",
+"el.style.transition = 'height 3s';",
+"const { height } = el.ownerDocument.defaultView.getComputedStyle(el, null);",
+"if (parseInt(height, 10) === 0) {",
+"  el.style.height = originHeight;",
+"} else {",
+" el.style.height = '0px';",
+"}",
+		],
+		"description": "YDNjQ - SlideToggle: Display or hide the element with a sliding motion."
+	}
+}

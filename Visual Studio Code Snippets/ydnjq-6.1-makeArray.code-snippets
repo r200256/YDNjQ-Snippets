@@ -1,0 +1,19 @@
+{
+	"YDNjQ - makeArray: Convert an array-like object into a true JavaScript array.": {
+		"prefix": "makeArray",
+		"body": [
+"// jQuery",
+"// $.makeArray(arrayLike);",
+"",
+"// Native",
+"Array.prototype.slice.call(arrayLike);",
+"",
+"// ES6-way: Array.from() method",
+"Array.from(arrayLike);",
+"",
+"// ES6-way: spread operator",
+"[...arrayLike];",
+		],
+		"description": "YDNjQ - makeArray: Convert an array-like object into a true JavaScript array."
+	}
+}

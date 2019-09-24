@@ -1,0 +1,16 @@
+{
+	"YDNjQ - inArray: Search for a specified value within an array and return its index (or -1 if not found).": {
+		"prefix": "inArray",
+		"body": [
+"// jQuery",
+"// $.inArray(item, array);",
+"",
+"// Native",
+"array.indexOf(item) > -1;",
+"",
+"// ES6-way",
+"array.includes(item);",
+		],
+		"description": "YDNjQ - inArray: Search for a specified value within an array and return its index (or -1 if not found)."
+	}
+}

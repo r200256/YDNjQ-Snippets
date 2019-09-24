@@ -1,0 +1,20 @@
+{
+	"YDNjQ - All previous siblings. Optional filter.": {
+		"prefix": "prevAll",
+		"body": [
+"// jQuery (optional filter selector)",
+"// $$el.prevAll($filter);",
+"",
+"// Native (optional filter function)",
+"function getPreviousSiblings(elem, filter) {",
+"  var sibs = [];",
+"  while (elem = elem.previousSibling) {",
+"    if (elem.nodeType === 3) continue; // ignore text nodes",
+"    if (!filter || filter(elem)) sibs.push(elem);",
+"  }",
+"  return sibs;",
+"}",
+		],
+		"description": "YDNjQ - All previous siblings. Optional filter."
+	}
+}

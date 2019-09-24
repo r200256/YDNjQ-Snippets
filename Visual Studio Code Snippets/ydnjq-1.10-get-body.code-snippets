@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Get body": {
+		"prefix": "get-body",
+		"body": [
+"// jQuery",
+"// $('body');",
+"",
+"// Native",
+"document.body;",
+		],
+		"description": "YDNjQ - Get body"
+	}
+}

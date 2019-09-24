@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Add class": {
+		"prefix": "addClass",
+		"body": [
+"// jQuery",
+"// $$el.addClass(className);",
+"",
+"// Native",
+"el.classList.add(className);",
+		],
+		"description": "YDNjQ - Add class"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"YDNjQ - isArray: Determine whether the argument is an array.": {
+		"prefix": "isArray",
+		"body": [
+"// jQuery",
+"// $$.isArray(array);",
+"",
+"// Native",
+"Array.isArray(array);",
+		],
+		"description": "YDNjQ - isArray: Determine whether the argument is an array."
+	}
+}

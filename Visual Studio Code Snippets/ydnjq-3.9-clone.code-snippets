@@ -1,0 +1,13 @@
+{
+	"YDNjQ - clone: Create a deep copy of an element: it copies the matched element as well as all of its descendant elements and text nodes.": {
+		"prefix": "clone",
+		"body": [
+"// jQuery. Sets parameter as `true` to indicate that event handlers should be copied along with the element.",
+"// $$el.clone();",
+"",
+"// Native",
+"el.cloneNode();",
+		],
+		"description": "YDNjQ - clone: Create a deep copy of an element: it copies the matched element as well as all of its descendant elements and text nodes."
+	}
+}

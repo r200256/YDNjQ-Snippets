@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Input/Textarea Value": {
+		"prefix": "val",
+		"body": [
+"// jQuery",
+"// $('#my-input').val();",
+"",
+"// Native",
+"document.querySelector('#my-input').value;",
+		],
+		"description": "YDNjQ - Input/Textarea Value"
+	}
+}

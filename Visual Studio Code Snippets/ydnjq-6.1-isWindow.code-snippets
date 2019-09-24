@@ -1,0 +1,15 @@
+{
+	"YDNjQ - isWindow: Determine whether the argument is a window.": {
+		"prefix": "isWindow",
+		"body": [
+"// jQuery",
+"// $.isWindow(obj);",
+"",
+"// Native",
+"function isWindow(obj) {",
+"  return obj !== null && obj !== undefined && obj === obj.window;",
+"}",
+		],
+		"description": "YDNjQ - isWindow: Determine whether the argument is a window."
+	}
+}

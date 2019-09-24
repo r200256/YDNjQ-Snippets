@@ -1,0 +1,19 @@
+{
+	"YDNjQ - insertBefore: Insert a new node before the selected elements": {
+		"prefix": "insertBefore",
+		"body": [
+"// jQuery",
+"// $$newEl.insertBefore(selector);",
+"",
+"// Native (HTML string)",
+"el.insertAdjacentHTML('beforebegin ', '<div id=\"container\">Hello World</div>');",
+"",
+"// Native (Element)",
+"const el = document.querySelector(selector);",
+"if (el.parentNode) {",
+"  el.parentNode.insertBefore(newEl, el);",
+"}",
+		],
+		"description": "YDNjQ - insertBefore: Insert a new node before the selected elements"
+	}
+}

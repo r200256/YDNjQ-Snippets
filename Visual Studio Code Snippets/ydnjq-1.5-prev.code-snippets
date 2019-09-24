@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Previous sibling": {
+		"prefix": "prev",
+		"body": [
+"// jQuery",
+"// $$el.prev();",
+"",
+"// Native",
+"el.previousElementSibling;",
+		],
+		"description": "YDNjQ - Previous sibling"
+	}
+}

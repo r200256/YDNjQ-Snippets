@@ -1,0 +1,19 @@
+{
+	"YDNjQ - insertAfter: Insert a new node after the selected elements": {
+		"prefix": "insertAfter",
+		"body": [
+"// jQuery",
+"// $$newEl.insertAfter(selector);",
+"",
+"// Native (HTML string)",
+"el.insertAdjacentHTML('afterend', '<div id=\"container\">Hello World</div>');",
+"",
+"// Native (Element)",
+"const el = document.querySelector(selector);",
+"if (el.parentNode) {",
+"  el.parentNode.insertBefore(newEl, el.nextSibling);",
+"}",
+		],
+		"description": "YDNjQ - insertAfter: Insert a new node after the selected elements"
+	}
+}

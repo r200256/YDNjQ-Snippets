@@ -1,0 +1,17 @@
+{
+	"YDNjQ - Append: Append child element after the last child of parent element": {
+		"prefix": "append",
+		"body": [
+"// jQuery: unified syntax for DOMString and Node objects",
+"// $$parent.append(newEl | '<div id=\"container\">Hello World</div>');",
+"",
+"// Native: different syntax",
+"parent.insertAdjacentHTML('beforeend', '<div id=\"container\">Hello World</div>');",
+"parent.appendChild(newEl);",
+"",
+"// Native (ES6-way): unified syntax",
+"parent.append(newEl | '<div id=\"container\">Hello World</div>');",
+		],
+		"description": "YDNjQ - Append: Append child element after the last child of parent element"
+	}
+}

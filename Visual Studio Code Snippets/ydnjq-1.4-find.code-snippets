@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Query in descendants": {
+		"prefix": "find",
+		"body": [
+"// jQuery",
+"// $$el.find('li');",
+"",
+"// Native",
+"el.querySelectorAll('li');",
+		],
+		"description": "YDNjQ - Query in descendants"
+	}
+}

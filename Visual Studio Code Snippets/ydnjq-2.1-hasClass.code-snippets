@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Has class": {
+		"prefix": "hasClass",
+		"body": [
+"// jQuery",
+"// $$el.hasClass(className);",
+"",
+"// Native",
+"el.classList.contains(className);",
+		],
+		"description": "YDNjQ - Has class"
+	}
+}

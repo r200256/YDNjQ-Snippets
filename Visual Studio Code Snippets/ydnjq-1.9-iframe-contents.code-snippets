@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Iframe Contents": {
+		"prefix": "iframe-contents",
+		"body": [
+"// jQuery",
+"// $$iframe.contents();",
+"",
+"// Native",
+"iframe.contentDocument;",
+		],
+		"description": "YDNjQ - Iframe Contents"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"YDNjQ - isPlainObject: Check to see if an object is a plain object (created using “{}” or “new Object”).": {
+		"prefix": "isPlainObject",
+		"body": [
+"// jQuery",
+"// $.isPlainObject(obj);",
+"",
+"// Native",
+"function isPlainObject(obj) {",
+"  if (typeof (obj) !== 'object' || obj.nodeType || obj !== null && obj !== undefined && obj === obj.window) {",
+"    return false;",
+"  }",
+"",
+"  if (obj.constructor &&",
+"      !Object.prototype.hasOwnProperty.call(obj.constructor.prototype, 'isPrototypeOf')) {",
+"    return false;",
+"  }",
+"",
+"  return true;",
+"}",
+		],
+		"description": "YDNjQ - isPlainObject: Check to see if an object is a plain object (created using “{}” or “new Object”)."
+	}
+}

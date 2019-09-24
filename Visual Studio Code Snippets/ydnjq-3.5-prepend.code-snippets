@@ -1,0 +1,17 @@
+{
+	"YDNjQ - Prepend": {
+		"prefix": "prepend",
+		"body": [
+"// jQuery: unified syntax for DOMString and Node objects",
+"// $$parent.prepend(newEl | '<div id=\"container\">Hello World</div>');",
+"",
+"// Native: different syntax",
+"parent.insertAdjacentHTML('afterbegin', '<div id=\"container\">Hello World</div>');",
+"parent.insertBefore(newEl, parent.firstChild);",
+"",
+"// Native (ES6-way): unified syntax",
+"parent.prepend(newEl | '<div id=\"container\">Hello World</div>');",
+		],
+		"description": "YDNjQ - Prepend"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"YDNjQ - Get a data- attribute": {
+		"prefix": "attr-data",
+		"body": [
+"// jQuery",
+"// $$el.data('foo');",
+"",
+"// Native (use `getAttribute`)",
+"el.getAttribute('data-foo');",
+"",
+"// Native (use `dataset` if only need to support IE 11+)",
+"el.dataset['foo'];",
+		],
+		"description": "YDNjQ - Get a data- attribute"
+	}
+}

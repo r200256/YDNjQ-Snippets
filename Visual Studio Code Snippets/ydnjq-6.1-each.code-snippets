@@ -1,0 +1,15 @@
+{
+	"YDNjQ - each: A generic iterator function, which can be used to seamlessly iterate over both objects and arrays.": {
+		"prefix": "each",
+		"body": [
+"// jQuery",
+"// $.each(array, (index, value) => {",
+"// });",
+"",
+"// Native",
+"array.forEach((value, index) => {",
+"});",
+		],
+		"description": "YDNjQ - each: A generic iterator function, which can be used to seamlessly iterate over both objects and arrays."
+	}
+}

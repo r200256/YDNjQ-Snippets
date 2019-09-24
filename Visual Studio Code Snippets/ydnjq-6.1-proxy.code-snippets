@@ -1,0 +1,13 @@
+{
+	"YDNjQ - proxy: Takes a function and returns a new one that will always have a particular context.": {
+		"prefix": "proxy",
+		"body": [
+"// jQuery",
+"// $.proxy(fn, context);",
+"",
+"// Native",
+"fn.bind(context);",
+		],
+		"description": "YDNjQ - proxy: Takes a function and returns a new one that will always have a particular context."
+	}
+}

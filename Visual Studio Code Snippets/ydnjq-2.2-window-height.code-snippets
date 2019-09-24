@@ -1,0 +1,16 @@
+{
+	"YDNjQ - Window height": {
+		"prefix": "height",
+		"body": [
+"// window height",
+"// $(window).height();",
+"",
+"// with scrollbar",
+"window.document.documentElement.clientHeight;",
+"",
+"// without scrollbar, behaves like jQuery",
+"window.innerHeight;",
+		],
+		"description": "YDNjQ - Window height"
+	}
+}

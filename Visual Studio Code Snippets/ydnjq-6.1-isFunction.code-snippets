@@ -1,0 +1,19 @@
+{
+	"YDNjQ - isFunction: Determine if the argument passed is a JavaScript function object.": {
+		"prefix": "isFunction",
+		"body": [
+"// jQuery",
+"// $.isFunction(item);",
+"",
+"// Native",
+"function isFunction(item) {",
+"  if (typeof item === 'function') {",
+"    return true;",
+"  }",
+"  var type = Object.prototype.toString.call(item);",
+"  return type === '[object Function]' || type === '[object GeneratorFunction]';",
+"}",
+		],
+		"description": "YDNjQ - isFunction: Determine if the argument passed is a JavaScript function object."
+	}
+}

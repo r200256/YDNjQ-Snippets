@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Set text: Set the content of the element to the specified text.": {
+		"prefix": "text",
+		"body": [
+"// jQuery",
+"// $$el.text(string);",
+"",
+"// Native",
+"el.textContent = string;",
+		],
+		"description": "YDNjQ - Set text: Set the content of the element to the specified text."
+	}
+}

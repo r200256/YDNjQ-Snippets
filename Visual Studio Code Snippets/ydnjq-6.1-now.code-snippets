@@ -1,0 +1,13 @@
+{
+	"YDNjQ - now: Return a number representing the current time.": {
+		"prefix": "now",
+		"body": [
+"// jQuery",
+"// $.now();",
+"",
+"// Native",
+"Date.now();",
+		],
+		"description": "YDNjQ - now: Return a number representing the current time."
+	}
+}

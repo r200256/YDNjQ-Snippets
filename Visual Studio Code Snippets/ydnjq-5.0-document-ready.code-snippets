@@ -1,0 +1,18 @@
+{
+	"YDNjQ - Document ready by DOMContentLoaded": {
+		"prefix": "ready",
+		"body": [
+"// jQuery",
+"//$(document).ready(eventHandler);",
+"",
+"// Native",
+"// Check if the DOMContentLoaded has already been completed",
+"if (document.readyState !== 'loading') {",
+"  eventHandler();",
+"} else {",
+"  document.addEventListener('DOMContentLoaded', eventHandler);",
+"}",
+		],
+		"description": "YDNjQ - Document ready by DOMContentLoaded"
+	}
+}

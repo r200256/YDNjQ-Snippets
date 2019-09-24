@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Iframe Query": {
+		"prefix": "iframe-query",
+		"body": [
+"// jQuery",
+"// $$iframe.contents().find('.css');",
+"",
+"// Native",
+"iframe.contentDocument.querySelectorAll('.css');",
+		],
+		"description": "YDNjQ - Iframe Query"
+	}
+}

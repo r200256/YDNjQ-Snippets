@@ -1,0 +1,17 @@
+{
+	"YDNjQ - Toggle: Display or hide the element.": {
+		"prefix": "toggle",
+		"body": [
+"// jQuery",
+"// $$el.toggle();",
+"",
+"// Native",
+"if (el.ownerDocument.defaultView.getComputedStyle(el, null).display === 'none') {",
+"  el.style.display = ''|'inline'|'inline-block'|'inline-table'|'block';",
+"} else {",
+"  el.style.display = 'none';",
+"}",
+		],
+		"description": "YDNjQ - Toggle: Display or hide the element."
+	}
+}

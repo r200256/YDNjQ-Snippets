@@ -1,0 +1,18 @@
+{
+	"YDNjQ - type: Determine the internal JavaScript [Class] of an object.": {
+		"prefix": "type",
+		"body": [
+"// jQuery",
+"//$.type(obj);",
+"",
+"// Native",
+"function type(item) {",
+"  const reTypeOf = /(?:^\\[object\\s(.*?)\\]$)/;",
+"  return Object.prototype.toString.call(item)",
+"    .replace(reTypeOf, '$1')",
+"    .toLowerCase();",
+"}",
+		],
+		"description": "YDNjQ - type: Determine the internal JavaScript [Class] of an object."
+	}
+}

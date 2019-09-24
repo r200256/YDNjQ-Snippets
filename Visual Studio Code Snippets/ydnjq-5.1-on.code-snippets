@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Bind an event with on": {
+		"prefix": "on",
+		"body": [
+"// jQuery",
+"// $$el.on(eventName, eventHandler);",
+"",
+"// Native",
+"el.addEventListener(eventName, eventHandler);",
+		],
+		"description": "YDNjQ - Bind an event with on"
+	}
+}

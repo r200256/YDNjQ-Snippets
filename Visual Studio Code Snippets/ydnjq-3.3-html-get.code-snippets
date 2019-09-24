@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Get HTML": {
+		"prefix": "html",
+		"body": [
+"// jQuery",
+"// $$el.html();",
+"",
+"// Native",
+"el.innerHTML;",
+		],
+		"description": "YDNjQ - Get HTML"
+	}
+}

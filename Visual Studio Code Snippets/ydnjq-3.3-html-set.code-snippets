@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Set HTML": {
+		"prefix": "html",
+		"body": [
+"// jQuery",
+"// $$el.html(htmlString);",
+"",
+"// Native",
+"el.innerHTML = htmlString;",
+		],
+		"description": "YDNjQ - Set HTML"
+	}
+}

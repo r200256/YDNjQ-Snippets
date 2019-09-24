@@ -1,0 +1,21 @@
+{
+	"YDNjQ - Document height": {
+		"prefix": "height",
+		"body": [
+"// jQuery",
+"// $(document).height();",
+"",
+"// Native",
+"const body = document.body;",
+"const html = document.documentElement;",
+"const height = Math.max(",
+"  body.offsetHeight,",
+"  body.scrollHeight,",
+"  html.clientHeight,",
+"  html.offsetHeight,",
+"  html.scrollHeight",
+");",
+		],
+		"description": "YDNjQ - Document height"
+	}
+}

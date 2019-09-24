@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Get an attribute": {
+		"prefix": "attr-get",
+		"body": [
+"// jQuery",
+"// $$el.attr('foo');",
+"",
+"// Native",
+"el.getAttribute('foo');",
+		],
+		"description": "YDNjQ - Get an attribute"
+	}
+}

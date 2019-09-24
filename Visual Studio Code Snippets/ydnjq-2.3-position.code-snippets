@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Position: Get the current coordinates of the element relative to the offset parent.": {
+		"prefix": "position",
+		"body": [
+"// jQuery",
+"// $$el.position();",
+"",
+"// Native",
+"{ left: el.offsetLeft, top: el.offsetTop }",
+		],
+		"description": "YDNjQ - Position: Get the current coordinates of the element relative to the offset parent."
+	}
+}

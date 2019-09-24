@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Query by selector": {
+		"prefix": "selector",
+		"body": [
+"// jQuery",
+"// $('selector');",
+"",
+"// Native",
+"document.querySelectorAll('selector');",
+		],
+		"description": "YDNjQ - Query by selector"
+	}
+}

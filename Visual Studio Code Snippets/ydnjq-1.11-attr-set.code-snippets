@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Set an attribute": {
+		"prefix": "attr-set",
+		"body": [
+"// jQuery",
+"// $$el.attr('foo', 'bar');",
+"",
+"// Native",
+"el.setAttribute('foo', 'bar');",
+		],
+		"description": "YDNjQ - Set an attribute"
+	}
+}

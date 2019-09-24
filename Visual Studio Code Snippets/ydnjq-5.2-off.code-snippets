@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Unbind an event with off": {
+		"prefix": "off",
+		"body": [
+"// jQuery",
+"// $$el.off(eventName, eventHandler);",
+"",
+"// Native",
+"el.removeEventListener(eventName, eventHandler);",
+		],
+		"description": "YDNjQ - Unbind an event with off"
+	}
+}

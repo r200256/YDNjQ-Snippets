@@ -1,0 +1,15 @@
+{
+	"YDNjQ - map: Translate all items in an array or object to new array of items.": {
+		"prefix": "map",
+		"body": [
+"// jQuery",
+"// $.map(array, (value, index) => {",
+"//});",
+"",
+"// Native",
+"array.map((value, index) => {",
+"});",
+		],
+		"description": "YDNjQ - map: Translate all items in an array or object to new array of items."
+	}
+}

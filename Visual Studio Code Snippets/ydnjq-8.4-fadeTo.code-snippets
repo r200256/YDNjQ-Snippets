@@ -1,0 +1,13 @@
+{
+	"YDNjQ - FadeTo: Adjust the opacity of the element.": {
+		"prefix": "fadeTo",
+		"body": [
+"// jQuery",
+"// $$el.fadeTo('slow',0.15);",
+"// Native",
+"el.style.transition = 'opacity 3s'; // assume 'slow' equals 3 seconds",
+"el.style.opacity = '0.15';",
+		],
+		"description": "YDNjQ - FadeTo: Adjust the opacity of the element."
+	}
+}

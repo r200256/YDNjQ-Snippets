@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Scroll Top: Get the current vertical position of the scroll bar for the element.": {
+		"prefix": "scrollTop",
+		"body": [
+"// jQuery",
+"// $(window).scrollTop();",
+"",
+"// Native",
+"(document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;",
+		],
+		"description": "YDNjQ - Scroll Top: Get the current vertical position of the scroll bar for the element."
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"YDNjQ - An example of filter function": {
+		"prefix": "exampleFilter",
+		"body": [
+"function exampleFilter(elem) {",
+"  switch (elem.nodeName.toUpperCase()) {",
+"    case 'DIV':",
+"      return true;",
+"    case 'SPAN':",
+"      return true;",
+"    default:",
+"      return false;",
+"  }",
+"}",
+		],
+		"description": "YDNjQ - An example of filter function"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"YDNjQ - exists: Check if an element exists in the DOM": {
+		"prefix": "exists",
+		"body": [
+"// jQuery",
+"// if ($('selector').length) {",
+"  // exists",
+"//}",
+"",
+"// Native",
+"var element =  document.getElementById('elementId');",
+"if (typeof(element) != 'undefined' && element != null) {",
+"  // exists",
+"}",
+		],
+		"description": "YDNjQ - exists: Check if an element exists in the DOM"
+	}
+}

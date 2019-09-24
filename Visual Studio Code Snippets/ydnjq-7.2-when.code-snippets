@@ -1,0 +1,14 @@
+{
+	"YDNjQ - when: when is used to handle multiple promises. It will resolve when all promises are resolved, and reject if either one is rejected.": {
+		"prefix": "when",
+		"body": [
+"// jQuery",
+"// $.when($$promise1, $$promise2).done((promise1Result, promise2Result) => {",
+"// });",
+"",
+"// Native",
+"Promise.all([$$promise1, $$promise2]).then([promise1Result, promise2Result] => {});",
+		],
+		"description": "YDNjQ - when: when is used to handle multiple promises. It will resolve when all promises are resolved, and reject if either one is rejected."
+	}
+}

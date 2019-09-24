@@ -1,0 +1,15 @@
+{
+	"YDNjQ - grep: Finds the elements of an array which satisfy a filter function.": {
+		"prefix": "grep",
+		"body": [
+"// jQuery",
+"// $.grep(array, (value, index) => {",
+"// });",
+"",
+"// Native",
+"array.filter((value, index) => {",
+"});",
+		],
+		"description": "YDNjQ - grep: Finds the elements of an array which satisfy a filter function."
+	}
+}

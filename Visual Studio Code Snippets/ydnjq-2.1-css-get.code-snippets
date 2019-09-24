@@ -1,0 +1,17 @@
+{
+	"YDNjQ - Get style": {
+		"prefix": "css-get",
+		"body": [
+"// jQuery",
+"// $$el.css('color');",
+"",
+"// Native",
+"// NOTE: Known bug, will return 'auto' if style value is 'auto'",
+"const win = el.ownerDocument.defaultView;",
+"",
+"// null means not to return pseudo styles",
+"win.getComputedStyle(el, null).color;",
+		],
+		"description": "YDNjQ - Get style"
+	}
+}

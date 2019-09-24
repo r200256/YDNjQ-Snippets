@@ -1,0 +1,15 @@
+{
+	"YDNjQ - isEmptyObject: Check to see if an object is empty (contains no enumerable properties).": {
+		"prefix": "isEmptyObject",
+		"body": [
+"// jQuery",
+"// $.isEmptyObject(obj);",
+"",
+"// Native",
+"function isEmptyObject(obj) {",
+"  return Object.keys(obj).length === 0;",
+"}",
+		],
+		"description": "YDNjQ - isEmptyObject: Check to see if an object is empty (contains no enumerable properties)."
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Remove: Remove the element from the DOM.": {
+		"prefix": "remove",
+		"body": [
+"// jQuery",
+"// $$el.remove();",
+"",
+"// Native",
+"el.parentNode.removeChild(el);",
+		],
+		"description": "YDNjQ - Remove: Remove the element from the DOM."
+	}
+}

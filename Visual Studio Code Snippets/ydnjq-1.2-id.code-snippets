@@ -1,0 +1,19 @@
+{
+	"YDNjQ - Query by id": {
+		"prefix": "id",
+		"body": [
+"// jQuery",
+"// $('#id');",
+"",
+"// Native",
+"document.querySelector('#id');",
+"",
+"// or",
+"document.getElementById('id');",
+"",
+"// or",
+"window['id']",
+		],
+		"description": "YDNjQ - Query by id"
+	}
+}

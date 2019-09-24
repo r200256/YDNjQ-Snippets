@@ -1,0 +1,18 @@
+{
+	"YDNjQ - Selector containing string (case-sensitive)": {
+		"prefix": "selector-contains",
+		"body": [
+"// jQuery",
+"// $(\"selector:contains('text')\");",
+"",
+"// Native",
+"function contains(selector, text) {",
+"  var elements = document.querySelectorAll(selector);",
+"  return Array.from(elements).filter(function(element) {",
+"    return RegExp(text).test(element.textContent);",
+"  });",
+"}",
+		],
+		"description": "YDNjQ - Selector containing string (case-sensitive)"
+	}
+}

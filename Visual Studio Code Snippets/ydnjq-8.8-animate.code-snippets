@@ -1,0 +1,16 @@
+{
+	"YDNjQ - Animate: Perform a custom animation of a set of CSS properties.": {
+		"prefix": "animate",
+		"body": [
+"// jQuery",
+"// $$el.animate({ params }, speed);",
+"",
+"// Native",
+"el.style.transition = 'all ' + speed;",
+"Object.keys(params).forEach((key) =>",
+"  el.style[key] = params[key]",
+")",
+		],
+		"description": "YDNjQ - Animate: Perform a custom animation of a set of CSS properties."
+	}
+}

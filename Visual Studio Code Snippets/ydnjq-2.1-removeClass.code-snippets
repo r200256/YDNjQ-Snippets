@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Remove class": {
+		"prefix": "removeClass",
+		"body": [
+"// jQuery",
+"// $$el.removeClass(className);",
+"",
+"// Native",
+"el.classList.remove(className);",
+		],
+		"description": "YDNjQ - Remove class"
+	}
+}

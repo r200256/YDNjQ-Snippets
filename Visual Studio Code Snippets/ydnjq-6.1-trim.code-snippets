@@ -1,0 +1,13 @@
+{
+	"YDNjQ - trim: Remove the white-space from the beginning and end of a string.": {
+		"prefix": "trim",
+		"body": [
+"// jQuery",
+"// $.trim(string);",
+"",
+"// Native",
+"string.trim();",
+		],
+		"description": "YDNjQ - trim: Remove the white-space from the beginning and end of a string."
+	}
+}

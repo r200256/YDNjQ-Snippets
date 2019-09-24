@@ -1,0 +1,13 @@
+{
+	"YDNjQ - Get text: Get the combined text contents of the element including their descendants.": {
+		"prefix": "text",
+		"body": [
+"// jQuery",
+"// $$el.text();",
+"",
+"// Native",
+"el.textContent;",
+		],
+		"description": "YDNjQ - Get text: Get the combined text contents of the element including their descendants."
+	}
+}

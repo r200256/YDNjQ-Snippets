@@ -1,0 +1,23 @@
+{
+	"YDNjQ - merge: Merge the contents of two arrays together into the first array.": {
+		"prefix": "merge",
+		"body": [
+"// jQuery, doesn't remove duplicate items",
+"// $.merge(array1, array2);",
+"",
+"// Native, doesn't remove duplicate items",
+"function merge(...args) {",
+"  return [].concat(...args)",
+"}",
+"",
+"// ES6-way, doesn't remove duplicate items",
+"array1 = [...array1, ...array2]",
+"",
+"// Set version, does remove duplicate items",
+"function merge(...args) {",
+"  return Array.from(new Set([].concat(...args)))",
+"}",
+		],
+		"description": "YDNjQ - merge: Merge the contents of two arrays together into the first array."
+	}
+}

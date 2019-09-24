@@ -1,0 +1,24 @@
+{
+	"YDNjQ - replaceWith: Replace each element in the set of matched elements with the provided new content": {
+		"prefix": "replaceWith",
+		"body": [
+"// jQuery",
+"// $('.inner').replaceWith('<div class=\"outer\"></div>');",
+"",
+"// Native (alternative) - latest, Edge17+",
+"Array.from(document.querySelectorAll('.inner')).forEach((el) => {",
+"  const outer = document.createElement('div');",
+"  outer.className = 'outer';",
+"  el.replaceWith(outer);",
+"});",
+"",
+"// Native",
+"Array.from(document.querySelectorAll('.inner')).forEach((el) => {",
+"  const outer = document.createElement('div');",
+"  outer.className = 'outer';",
+"  el.parentNode.replaceChild(outer, el);",
+"});",
+		],
+		"description": "YDNjQ - replaceWith: Replace each element in the set of matched elements with the provided new content"
+	}
+}

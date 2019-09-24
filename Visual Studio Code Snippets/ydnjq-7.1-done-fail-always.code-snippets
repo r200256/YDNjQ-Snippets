@@ -1,0 +1,13 @@
+{
+	"YDNjQ - done, fail, always: done is called when promise is resolved, fail is called when promise is rejected, always is called when promise is either resolved or rejected.": {
+		"prefix": "done, fail, always",
+		"body": [
+"// jQuery",
+"// $promise.done(doneCallback).fail(failCallback).always(alwaysCallback)",
+"",
+"// Native",
+"promise.then(doneCallback, failCallback).then(alwaysCallback, alwaysCallback)",
+		],
+		"description": "YDNjQ - done, fail, always: done is called when promise is resolved, fail is called when promise is rejected, always is called when promise is either resolved or rejected."
+	}
+}
