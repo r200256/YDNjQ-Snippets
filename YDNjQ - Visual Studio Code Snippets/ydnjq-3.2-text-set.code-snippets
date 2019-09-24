@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Set text: Set the content of the element to the specified text.": {
+	"ydnjq": {
 		"prefix": "text",
 		"body": [
 "// jQuery",

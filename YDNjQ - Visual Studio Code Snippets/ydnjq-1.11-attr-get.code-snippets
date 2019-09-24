@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Get an attribute": {
+	"ydnjq": {
 		"prefix": "attr-get",
 		"body": [
 "// jQuery",

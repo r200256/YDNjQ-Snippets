@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Query in descendants": {
+	"ydnjq": {
 		"prefix": "find",
 		"body": [
 "// jQuery",

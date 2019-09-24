@@ -1,5 +1,5 @@
 {
-	"YDNjQ - simple parse: Parse a string into HTML/SVG/XML": {
+	"ydnjq": {
 		"prefix": "simple-parse",
 		"body": [
 "// jQuery",

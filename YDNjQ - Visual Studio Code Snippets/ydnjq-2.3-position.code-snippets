@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Position: Get the current coordinates of the element relative to the offset parent.": {
+	"ydnjq": {
 		"prefix": "position",
 		"body": [
 "// jQuery",

@@ -1,5 +1,5 @@
 {
-	"YDNjQ - An example of filter function": {
+	"ydnjq": {
 		"prefix": "exampleFilter",
 		"body": [
 "function exampleFilter(elem) {",

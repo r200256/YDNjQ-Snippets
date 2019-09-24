@@ -1,5 +1,5 @@
 {
-	"YDNjQ - wrap: Wrap an HTML structure around each element": {
+	"ydnjq": {
 		"prefix": "wrap",
 		"body": [
 "// jQuery",

@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Selector containing string (case-sensitive)": {
+	"ydnjq": {
 		"prefix": "selector-contains",
 		"body": [
 "// jQuery",

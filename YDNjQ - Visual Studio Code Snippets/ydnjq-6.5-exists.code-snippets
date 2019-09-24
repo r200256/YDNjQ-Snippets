@@ -1,5 +1,5 @@
 {
-	"YDNjQ - exists: Check if an element exists in the DOM": {
+	"ydnjq": {
 		"prefix": "exists",
 		"body": [
 "// jQuery",

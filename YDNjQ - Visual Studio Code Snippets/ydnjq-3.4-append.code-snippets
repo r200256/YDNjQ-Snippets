@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Append: Append child element after the last child of parent element": {
+	"ydnjq": {
 		"prefix": "append",
 		"body": [
 "// jQuery: unified syntax for DOMString and Node objects",

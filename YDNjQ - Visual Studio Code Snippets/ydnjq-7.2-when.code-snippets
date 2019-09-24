@@ -1,5 +1,5 @@
 {
-	"YDNjQ - when: when is used to handle multiple promises. It will resolve when all promises are resolved, and reject if either one is rejected.": {
+	"ydnjq": {
 		"prefix": "when",
 		"body": [
 "// jQuery",

@@ -1,5 +1,5 @@
 {
-	"YDNjQ - grep: Finds the elements of an array which satisfy a filter function.": {
+	"ydnjq": {
 		"prefix": "grep",
 		"body": [
 "// jQuery",

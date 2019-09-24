@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Contains: Check to see if a DOM element is a descendant of another DOM element.": {
+	"ydnjq": {
 		"prefix": "contains",
 		"body": [
 "// jQuery",

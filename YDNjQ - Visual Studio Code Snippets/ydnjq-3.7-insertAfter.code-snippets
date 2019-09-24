@@ -1,5 +1,5 @@
 {
-	"YDNjQ - insertAfter: Insert a new node after the selected elements": {
+	"ydnjq": {
 		"prefix": "insertAfter",
 		"body": [
 "// jQuery",

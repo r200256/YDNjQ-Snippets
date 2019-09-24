@@ -1,5 +1,5 @@
 {
-	"YDNjQ - done, fail, always: done is called when promise is resolved, fail is called when promise is rejected, always is called when promise is either resolved or rejected.": {
+	"ydnjq": {
 		"prefix": "done, fail, always",
 		"body": [
 "// jQuery",

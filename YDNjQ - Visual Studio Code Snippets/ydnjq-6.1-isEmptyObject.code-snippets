@@ -1,5 +1,5 @@
 {
-	"YDNjQ - isEmptyObject: Check to see if an object is empty (contains no enumerable properties).": {
+	"ydnjq": {
 		"prefix": "isEmptyObject",
 		"body": [
 "// jQuery",

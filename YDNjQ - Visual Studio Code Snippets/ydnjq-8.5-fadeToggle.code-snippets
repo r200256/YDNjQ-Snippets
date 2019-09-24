@@ -1,5 +1,5 @@
 {
-	"YDNjQ - FadeToggle: Display or hide the element by animating their opacity.": {
+	"ydnjq": {
 		"prefix": "fadeToggle",
 		"body": [
 "// jQuery",

@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Get text: Get the combined text contents of the element including their descendants.": {
+	"ydnjq": {
 		"prefix": "text",
 		"body": [
 "// jQuery",

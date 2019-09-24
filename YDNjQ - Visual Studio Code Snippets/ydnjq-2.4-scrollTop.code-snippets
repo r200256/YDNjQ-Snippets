@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Scroll Top: Get the current vertical position of the scroll bar for the element.": {
+	"ydnjq": {
 		"prefix": "scrollTop",
 		"body": [
 "// jQuery",

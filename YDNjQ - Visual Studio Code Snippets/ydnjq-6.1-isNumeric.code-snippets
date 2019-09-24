@@ -1,5 +1,5 @@
 {
-	"YDNjQ - isNumeric: Determine if the argument passed is numerical. Use typeof to decide the type or the type example for better accuracy.": {
+	"ydnjq": {
 		"prefix": "isNumeric",
 		"body": [
 "// jQuery",

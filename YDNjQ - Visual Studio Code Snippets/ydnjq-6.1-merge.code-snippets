@@ -1,5 +1,5 @@
 {
-	"YDNjQ - merge: Merge the contents of two arrays together into the first array.": {
+	"ydnjq": {
 		"prefix": "merge",
 		"body": [
 "// jQuery, doesn't remove duplicate items",

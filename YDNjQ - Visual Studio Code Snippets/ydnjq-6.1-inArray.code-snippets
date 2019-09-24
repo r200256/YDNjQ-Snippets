@@ -1,5 +1,5 @@
 {
-	"YDNjQ - inArray: Search for a specified value within an array and return its index (or -1 if not found).": {
+	"ydnjq": {
 		"prefix": "inArray",
 		"body": [
 "// jQuery",

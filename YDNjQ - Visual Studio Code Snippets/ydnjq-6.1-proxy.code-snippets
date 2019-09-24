@@ -1,5 +1,5 @@
 {
-	"YDNjQ - proxy: Takes a function and returns a new one that will always have a particular context.": {
+	"ydnjq": {
 		"prefix": "proxy",
 		"body": [
 "// jQuery",

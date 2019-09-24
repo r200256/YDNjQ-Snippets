@@ -1,5 +1,5 @@
 {
-	"YDNjQ - each: A generic iterator function, which can be used to seamlessly iterate over both objects and arrays.": {
+	"ydnjq": {
 		"prefix": "each",
 		"body": [
 "// jQuery",

@@ -1,5 +1,5 @@
 {
-	"YDNjQ - is: Return true if it matches the query selector": {
+	"ydnjq": {
 		"prefix": "is",
 		"body": [
 "// jQuery - Notice `is` also works with a function, an existing jQuery object or a DOM element, which are not of concern here",

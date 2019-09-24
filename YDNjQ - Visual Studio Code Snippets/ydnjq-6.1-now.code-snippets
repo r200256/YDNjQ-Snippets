@@ -1,5 +1,5 @@
 {
-	"YDNjQ - now: Return a number representing the current time.": {
+	"ydnjq": {
 		"prefix": "now",
 		"body": [
 "// jQuery",

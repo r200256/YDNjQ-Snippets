@@ -1,5 +1,5 @@
 {
-	"YDNjQ - isFunction: Determine if the argument passed is a JavaScript function object.": {
+	"ydnjq": {
 		"prefix": "isFunction",
 		"body": [
 "// jQuery",

@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Globaleval: Execute some JavaScript code globally.": {
+	"ydnjq": {
 		"prefix": "globaleval",
 		"body": [
 "// jQuery",

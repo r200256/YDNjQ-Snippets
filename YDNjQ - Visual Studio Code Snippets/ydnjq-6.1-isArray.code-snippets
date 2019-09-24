@@ -1,5 +1,5 @@
 {
-	"YDNjQ - isArray: Determine whether the argument is an array.": {
+	"ydnjq": {
 		"prefix": "isArray",
 		"body": [
 "// jQuery",

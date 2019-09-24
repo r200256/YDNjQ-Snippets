@@ -1,5 +1,5 @@
 {
-	"YDNjQ - trim: Remove the white-space from the beginning and end of a string.": {
+	"ydnjq": {
 		"prefix": "trim",
 		"body": [
 "// jQuery",

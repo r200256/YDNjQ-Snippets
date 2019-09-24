@@ -1,5 +1,5 @@
 {
-	"YDNjQ - extend: Merge the contents of two or more objects together into a new object, without modifying either argument. object.assign is part of ES6 API, and you could also use a polyfill.": {
+	"ydnjq": {
 		"prefix": "extend",
 		"body": [
 "// jQuery",

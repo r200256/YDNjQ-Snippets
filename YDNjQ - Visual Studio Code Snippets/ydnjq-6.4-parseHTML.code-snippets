@@ -1,5 +1,5 @@
 {
-	"YDNjQ - parseHTML: Parses a string into an array of DOM nodes.": {
+	"ydnjq": {
 		"prefix": "parseHTML",
 		"body": [
 "// jQuery",

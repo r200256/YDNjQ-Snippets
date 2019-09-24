@@ -1,5 +1,5 @@
 {
-	"YDNjQ - isWindow: Determine whether the argument is a window.": {
+	"ydnjq": {
 		"prefix": "isWindow",
 		"body": [
 "// jQuery",

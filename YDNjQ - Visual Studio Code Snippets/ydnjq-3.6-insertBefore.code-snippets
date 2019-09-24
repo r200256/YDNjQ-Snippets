@@ -1,5 +1,5 @@
 {
-	"YDNjQ - insertBefore: Insert a new node before the selected elements": {
+	"ydnjq": {
 		"prefix": "insertBefore",
 		"body": [
 "// jQuery",

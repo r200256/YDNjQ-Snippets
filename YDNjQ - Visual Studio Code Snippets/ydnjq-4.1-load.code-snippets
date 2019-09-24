@@ -1,5 +1,5 @@
 {
-	"YDNjQ - Load data from the server and place the returned HTML into the matched element.": {
+	"ydnjq": {
 		"prefix": "load",
 		"body": [
 "// jQuery",
