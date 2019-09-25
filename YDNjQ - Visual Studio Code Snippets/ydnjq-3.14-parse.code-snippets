@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "simple-parse",
+		"prefix": "parse",
 		"body": [
 "// jQuery",
 "// $(`<ol>",

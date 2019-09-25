@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>position</tabTrigger>
+	<description>YDNjQ - Position / $el.position()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.position();
+
+// Native
+{ left: el.offsetLeft, top: el.offsetTop }
+]]></content>
+</snippet>

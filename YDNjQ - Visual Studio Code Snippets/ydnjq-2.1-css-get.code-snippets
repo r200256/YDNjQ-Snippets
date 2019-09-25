@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "css-get",
+		"prefix": "css",
 		"body": [
 "// jQuery",
 "// $$el.css('color');",

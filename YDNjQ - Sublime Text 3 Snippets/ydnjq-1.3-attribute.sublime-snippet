@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>attribute</tabTrigger>
+	<description>YDNjQ - Query by attribute / $('a[target=_blank]')</description>
+	<content><![CDATA[
+// jQuery
+// \$('a[target=_blank]');
+
+// Native
+document.querySelectorAll('a[target=_blank]');
+]]></content>
+</snippet>

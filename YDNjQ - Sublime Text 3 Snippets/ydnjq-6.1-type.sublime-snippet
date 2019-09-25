@@ -1,0 +1,16 @@
+<snippet>
+	<tabTrigger>type</tabTrigger>
+	<description>YDNjQ - Type / $.type(obj)</description>
+	<content><![CDATA[
+// jQuery
+// \$.type(obj);
+
+// Native
+function type(item) {
+  const reTypeOf = /(?:^\[object\s(.*?)\]\$)/;
+  return Object.prototype.toString.call(item)
+    .replace(reTypeOf, '\$1')
+    .toLowerCase();
+}
+]]></content>
+</snippet>

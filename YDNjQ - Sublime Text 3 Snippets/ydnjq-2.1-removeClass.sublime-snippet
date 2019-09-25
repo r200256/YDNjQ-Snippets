@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>removeClass</tabTrigger>
+	<description>YDNjQ - Remove class / $el.removeClass(className)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.removeClass(className);
+
+// Native
+el.classList.remove(className);
+]]></content>
+</snippet>

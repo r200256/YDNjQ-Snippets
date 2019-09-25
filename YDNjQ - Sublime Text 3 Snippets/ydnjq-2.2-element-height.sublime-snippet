@@ -1,0 +1,25 @@
+<snippet>
+	<tabTrigger>height</tabTrigger>
+	<description>YDNjQ - Element height / $el.height()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.height();
+
+// Native
+function getHeight(el) {
+  const styles = window.getComputedStyle(el);
+  const height = el.offsetHeight;
+  const borderTopWidth = parseFloat(styles.borderTopWidth);
+  const borderBottomWidth = parseFloat(styles.borderBottomWidth);
+  const paddingTop = parseFloat(styles.paddingTop);
+  const paddingBottom = parseFloat(styles.paddingBottom);
+  return height - borderBottomWidth - borderTopWidth - paddingTop - paddingBottom;
+}
+
+// accurate to integer（when `border-box`, it's `height - border`; when `content-box`, it's `height + padding`）
+el.clientHeight;
+
+// accurate to decimal（when `border-box`, it's `height`; when `content-box`, it's `height + padding + border`）
+el.getBoundingClientRect().height;
+]]></content>
+</snippet>

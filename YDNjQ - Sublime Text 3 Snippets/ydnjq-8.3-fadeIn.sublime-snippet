@@ -1,0 +1,27 @@
+<snippet>
+	<tabTrigger>fadeIn</tabTrigger>
+	<description>YDNjQ - FadeIn / $el.fadeIn(3000)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.fadeIn(3000);
+
+// Native fadeIn
+function fadeIn(elem, ms) {
+  elem.style.opacity = 0;
+
+  if (ms) {
+    let opacity = 0;
+    const timer = setInterval(function() {
+      opacity += 50 / ms;
+      if (opacity >= 1) {
+        clearInterval(timer);
+        opacity = 1;
+      }
+      elem.style.opacity = opacity;
+    }, 50);
+  } else {
+    elem.style.opacity = 1;
+  }
+}
+]]></content>
+</snippet>

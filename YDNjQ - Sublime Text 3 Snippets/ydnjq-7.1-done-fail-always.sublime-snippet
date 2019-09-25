@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>done-fail-always</tabTrigger>
+	<description>YDNjQ - Done, fail, always / $promise.done(doneCallback).fail(failCallback).always(alwaysCallback)</description>
+	<content><![CDATA[
+// jQuery
+// \$promise.done(doneCallback).fail(failCallback).always(alwaysCallback)
+
+// Native
+promise.then(doneCallback, failCallback).then(alwaysCallback, alwaysCallback)
+]]></content>
+</snippet>

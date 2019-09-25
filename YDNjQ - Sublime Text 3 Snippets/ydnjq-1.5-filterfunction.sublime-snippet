@@ -1,0 +1,16 @@
+<snippet>
+	<tabTrigger>filter</tabTrigger>
+	<description>YDNjQ - An example of filter function</description>
+	<content><![CDATA[
+function exampleFilter(elem) {
+  switch (elem.nodeName.toUpperCase()) {
+    case 'DIV':
+      return true;
+    case 'SPAN':
+      return true;
+    default:
+      return false;
+  }
+}
+]]></content>
+</snippet>

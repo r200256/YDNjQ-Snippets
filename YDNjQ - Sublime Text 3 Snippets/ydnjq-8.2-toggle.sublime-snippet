@@ -1,0 +1,15 @@
+<snippet>
+	<tabTrigger>toggle</tabTrigger>
+	<description>YDNjQ - Toggle / $el.toggle()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.toggle();
+
+// Native
+if (el.ownerDocument.defaultView.getComputedStyle(el, null).display === 'none') {
+  el.style.display = ''|'inline'|'inline-block'|'inline-table'|'block';
+} else {
+  el.style.display = 'none';
+}
+]]></content>
+</snippet>

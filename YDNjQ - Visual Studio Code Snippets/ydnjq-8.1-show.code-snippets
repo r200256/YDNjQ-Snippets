@@ -1,16 +1,14 @@
 {
 	"ydnjq": {
-		"prefix": "show-hide",
+		"prefix": "show",
 		"body": [
 "// jQuery",
 "// $$el.show();",
-"// $$el.hide();",
 "",
 "// Native",
 "// More detail about show method, please refer to https://github.com/oneuijs/oui-dom-utils/blob/master/src/index.js#L363",
 "el.style.display = ''|'inline'|'inline-block'|'inline-table'|'block';",
-"el.style.display = 'none';",
 		],
-		"description": "YDNjQ - Show & Hide"
+		"description": "YDNjQ - Show"
 	}
 }

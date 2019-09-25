@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>on</tabTrigger>
+	<description>YDNjQ - Bind an event with on / $el.on(eventName, eventHandler)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.on(eventName, eventHandler);
+
+// Native
+el.addEventListener(eventName, eventHandler);
+]]></content>
+</snippet>

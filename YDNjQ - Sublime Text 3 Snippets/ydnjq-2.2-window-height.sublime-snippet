@@ -1,0 +1,14 @@
+<snippet>
+	<tabTrigger>height</tabTrigger>
+	<description>YDNjQ - Window height / $(window).height()</description>
+	<content><![CDATA[
+// window height
+// \$(window).height();
+
+// with scrollbar
+window.document.documentElement.clientHeight;
+
+// without scrollbar, behaves like jQuery
+window.innerHeight;
+]]></content>
+</snippet>

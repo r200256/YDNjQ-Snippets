@@ -1,0 +1,13 @@
+<snippet>
+	<tabTrigger>isWindow</tabTrigger>
+	<description>YDNjQ - isWindow / $.isWindow(obj)</description>
+	<content><![CDATA[
+// jQuery
+// \$.isWindow(obj);
+
+// Native
+function isWindow(obj) {
+  return obj !== null && obj !== undefined && obj === obj.window;
+}
+]]></content>
+</snippet>

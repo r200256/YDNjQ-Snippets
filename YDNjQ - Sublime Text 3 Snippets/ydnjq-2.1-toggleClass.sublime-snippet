@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>toggleClass</tabTrigger>
+	<description>YDNjQ - Toggle class / $el.toggleClass(className)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.toggleClass(className);
+
+// Native
+el.classList.toggle(className);
+]]></content>
+</snippet>

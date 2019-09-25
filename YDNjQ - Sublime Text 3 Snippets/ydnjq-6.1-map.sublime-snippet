@@ -1,0 +1,13 @@
+<snippet>
+	<tabTrigger>map</tabTrigger>
+	<description>YDNjQ - Map / $.map(array, (value, index) => {  })</description>
+	<content><![CDATA[
+// jQuery
+// \$.map(array, (value, index) => {
+// });
+
+// Native
+array.map((value, index) => {
+});
+]]></content>
+</snippet>

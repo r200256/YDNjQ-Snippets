@@ -1,0 +1,15 @@
+<snippet>
+	<tabTrigger>prepend</tabTrigger>
+	<description>YDNjQ - Prepend / $parent.append(newEl | '&lt;div id="container"&gt;Hello World&lt;/div&gt;')</description>
+	<content><![CDATA[
+// jQuery: unified syntax for DOMString and Node objects
+// \$parent.prepend(newEl | '&lt;div id="container"&gt;Hello World&lt;/div&gt;');
+
+// Native: different syntax
+parent.insertAdjacentHTML('afterbegin', '<div id="container">Hello World</div>');
+parent.insertBefore(newEl, parent.firstChild);
+
+// Native (ES6-way): unified syntax
+parent.prepend(newEl | '<div id="container">Hello World</div>');
+]]></content>
+</snippet>

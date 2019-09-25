@@ -1,0 +1,17 @@
+<snippet>
+	<tabTrigger>fadeToggle</tabTrigger>
+	<description>YDNjQ - FadeToggle / $el.fadeToggle()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.fadeToggle();
+
+// Native
+el.style.transition = 'opacity 3s';
+const { opacity } = el.ownerDocument.defaultView.getComputedStyle(el, null);
+if (opacity === '1') {
+  el.style.opacity = '0';
+} else {
+  el.style.opacity = '1';
+}
+]]></content>
+</snippet>

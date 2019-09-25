@@ -1,0 +1,14 @@
+<snippet>
+	<tabTrigger>slideDown</tabTrigger>
+	<description>YDNjQ - SlideDown / $el.slideDown()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.slideDown();
+
+// Native
+const originHeight = '100px';
+el.style.transition = 'height 3s';
+// slideDown
+el.style.height = originHeight;
+]]></content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<tabTrigger>slideUp</tabTrigger>
+	<description>YDNjQ - SlideUp / $el.slideUp()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.slideUp();
+
+// Native
+const originHeight = '100px';
+el.style.transition = 'height 3s';
+// slideUp
+el.style.height = '0px';
+]]></content>
+</snippet>

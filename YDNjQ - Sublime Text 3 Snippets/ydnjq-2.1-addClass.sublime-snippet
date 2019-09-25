@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>addClass</tabTrigger>
+	<description>YDNjQ - Add class / $el.addClass(className)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.addClass(className);
+
+// Native
+el.classList.add(className);
+]]></content>
+</snippet>

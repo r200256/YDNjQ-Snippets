@@ -1,0 +1,16 @@
+<snippet>
+	<tabTrigger>exists</tabTrigger>
+	<description>YDNjQ - Exists / $.parseHTML(htmlString)</description>
+	<content><![CDATA[
+// jQuery
+// if (\$('selector').length) {
+  // exists
+// }
+
+// Native
+var element =  document.getElementById('elementId');
+if (typeof(element) != 'undefined' && element != null) {
+  // exists
+}
+]]></content>
+</snippet>

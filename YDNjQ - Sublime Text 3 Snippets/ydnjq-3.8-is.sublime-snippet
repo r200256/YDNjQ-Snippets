@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>is</tabTrigger>
+	<description>YDNjQ - is / $el.is(selector)</description>
+	<content><![CDATA[
+// jQuery - Notice `is` also works with a function, an existing jQuery object or a DOM element, which are not of concern here
+// \$el.is(selector);
+
+// Native
+el.matches(selector);
+]]></content>
+</snippet>

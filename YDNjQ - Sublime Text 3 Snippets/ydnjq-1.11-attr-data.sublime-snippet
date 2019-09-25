@@ -1,0 +1,14 @@
+<snippet>
+	<tabTrigger>data</tabTrigger>
+	<description>YDNjQ - Get a data- attribute / $el.data('foo')</description>
+	<content><![CDATA[
+// jQuery
+// \$el.data('foo');
+
+// Native (use `getAttribute`)
+el.getAttribute('data-foo');
+
+// Native (use `dataset` if only need to support IE 11+)
+el.dataset['foo'];
+]]></content>
+</snippet>

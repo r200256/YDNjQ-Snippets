@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "css-set",
+		"prefix": "css",
 		"body": [
 "// jQuery",
 "// $$el.css({ color: '#f01' });",

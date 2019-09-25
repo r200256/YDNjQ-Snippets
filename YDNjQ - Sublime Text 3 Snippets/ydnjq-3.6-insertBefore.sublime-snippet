@@ -1,0 +1,17 @@
+<snippet>
+	<tabTrigger>insertBefore</tabTrigger>
+	<description>YDNjQ - insertBefore / $parent.append(newEl | '&lt;div id="container"&gt;Hello World&lt;/div&gt;')</description>
+	<content><![CDATA[
+// jQuery
+// \$newEl.insertBefore(selector);
+
+// Native (HTML string)
+el.insertAdjacentHTML('beforebegin ', '<div id="container">Hello World</div>');
+
+// Native (Element)
+const el = document.querySelector(selector);
+if (el.parentNode) {
+  el.parentNode.insertBefore(newEl, el);
+}
+]]></content>
+</snippet>

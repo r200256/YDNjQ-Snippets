@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>clone</tabTrigger>
+	<description>YDNjQ - Clone / $el.clone()</description>
+	<content><![CDATA[
+// jQuery. Sets parameter as `true` to indicate that event handlers should be copied along with the element.
+// \$el.clone();
+
+// Native
+el.cloneNode();
+]]></content>
+</snippet>

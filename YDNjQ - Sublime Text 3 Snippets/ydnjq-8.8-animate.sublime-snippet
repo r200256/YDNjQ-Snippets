@@ -1,0 +1,14 @@
+<snippet>
+	<tabTrigger>animate</tabTrigger>
+	<description>YDNjQ - Animate / $el.animate({ params }, speed)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.animate({ params }, speed);
+
+// Native
+el.style.transition = 'all ' + speed;
+Object.keys(params).forEach((key) =>
+  el.style[key] = params[key],
+)
+]]></content>
+</snippet>

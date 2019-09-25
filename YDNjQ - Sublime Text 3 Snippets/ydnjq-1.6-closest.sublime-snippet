@@ -1,0 +1,25 @@
+<snippet>
+	<tabTrigger>closest</tabTrigger>
+	<description>YDNjQ - Closest / $el.closest(selector)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.closest(selector);
+
+// Native - Only latest, NO IE
+el.closest(selector);
+
+// Native - IE10+
+function closest(el, selector) {
+  const matchesSelector = el.matches || el.webkitMatchesSelector || el.mozMatchesSelector || el.msMatchesSelector;
+
+  while (el) {
+    if (matchesSelector.call(el, selector)) {
+      return el;
+    } else {
+      el = el.parentElement;
+    }
+  }
+  return null;
+}
+]]></content>
+</snippet>

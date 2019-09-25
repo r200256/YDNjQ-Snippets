@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>attr</tabTrigger>
+	<description>YDNjQ - Get an attribute / $el.attr('foo')</description>
+	<content><![CDATA[
+// jQuery
+// \$el.attr('foo');
+
+// Native
+el.getAttribute('foo');
+]]></content>
+</snippet>

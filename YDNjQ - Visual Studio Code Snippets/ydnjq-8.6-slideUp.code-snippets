@@ -1,19 +1,16 @@
 {
 	"ydnjq": {
-		"prefix": "slideUp-slideDown",
+		"prefix": "slideUp",
 		"body": [
 "// jQuery",
 "// $$el.slideUp();",
-"// $$el.slideDown();",
 "",
 "// Native",
 "const originHeight = '100px';",
 "el.style.transition = 'height 3s';",
 "// slideUp",
 "el.style.height = '0px';",
-"// slideDown",
-"el.style.height = originHeight;",
 		],
-		"description": "YDNjQ - SlideUp & SlideDown"
+		"description": "YDNjQ - SlideUp"
 	}
 }

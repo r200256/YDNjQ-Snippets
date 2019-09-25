@@ -1,0 +1,13 @@
+<snippet>
+	<tabTrigger>each</tabTrigger>
+	<description>YDNjQ - Each / $.each(array, (index, value) => {  })</description>
+	<content><![CDATA[
+// jQuery
+// \$.each(array, (index, value) => {
+// });
+
+// Native
+array.forEach((value, index) => {
+});
+]]></content>
+</snippet>

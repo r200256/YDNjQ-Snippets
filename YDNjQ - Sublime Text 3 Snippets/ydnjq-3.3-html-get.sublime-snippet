@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>html</tabTrigger>
+	<description>YDNjQ - Get HTML / $el.html()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.html();
+
+// Native
+el.innerHTML;
+]]></content>
+</snippet>

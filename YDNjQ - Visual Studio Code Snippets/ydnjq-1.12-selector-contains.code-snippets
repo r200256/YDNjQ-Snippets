@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "selector-contains",
+		"prefix": "contains",
 		"body": [
 "// jQuery",
 "// $(\"selector:contains('text')\");",

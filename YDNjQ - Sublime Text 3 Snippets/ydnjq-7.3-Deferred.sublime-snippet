@@ -1,0 +1,60 @@
+<snippet>
+	<tabTrigger>Deferred</tabTrigger>
+	<description>YDNjQ - Deferred / $.Deferred()</description>
+	<content><![CDATA[
+// jQuery
+// function asyncFunc() {
+//   const defer = new \$.Deferred();
+//   setTimeout(() => {
+//     if(true) {
+//       defer.resolve('some_value_computed_asynchronously');
+//     } else {
+//       defer.reject('failed');
+//     }
+//   }, 1000);
+// 
+//   return defer.promise();
+// }
+
+// Native
+function asyncFunc() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (true) {
+        resolve('some_value_computed_asynchronously');
+      } else {
+        reject('failed');
+      }
+    }, 1000);
+  });
+}
+
+// Deferred way
+function defer() {
+  const deferred = {};
+  const promise = new Promise((resolve, reject) => {
+    deferred.resolve = resolve;
+    deferred.reject = reject;
+  });
+
+  deferred.promise = () => {
+    return promise;
+  };
+
+  return deferred;
+}
+
+function asyncFunc() {
+  const defer = defer();
+  setTimeout(() => {
+    if(true) {
+      defer.resolve('some_value_computed_asynchronously');
+    } else {
+      defer.reject('failed');
+    }
+  }, 1000);
+
+  return defer.promise();
+}
+]]></content>
+</snippet>

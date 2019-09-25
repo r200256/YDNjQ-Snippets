@@ -1,0 +1,18 @@
+<snippet>
+	<tabTrigger>unwrap</tabTrigger>
+	<description>YDNjQ - Unwrap / $('.inner').unwrap()</description>
+	<content><![CDATA[
+// jQuery
+// \$('.inner').unwrap();
+
+// Native
+Array.from(document.querySelectorAll('.inner')).forEach((el) => {
+  let elParentNode = el.parentNode;
+
+  if(elParentNode !== document.body) {
+    elParentNode.parentNode.insertBefore(el, elParentNode);
+    elParentNode.parentNode.removeChild(elParentNode);
+  }
+});
+]]></content>
+</snippet>

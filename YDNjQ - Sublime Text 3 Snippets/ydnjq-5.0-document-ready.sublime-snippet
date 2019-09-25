@@ -1,0 +1,16 @@
+<snippet>
+	<tabTrigger>ready</tabTrigger>
+	<description>YDNjQ - Document ready by DOMContentLoaded / $(document).ready(eventHandler)</description>
+	<content><![CDATA[
+// jQuery
+// \$(document).ready(eventHandler);
+
+// Native
+// Check if the DOMContentLoaded has already been completed
+if (document.readyState !== 'loading') {
+  eventHandler();
+} else {
+  document.addEventListener('DOMContentLoaded', eventHandler);
+}
+]]></content>
+</snippet>

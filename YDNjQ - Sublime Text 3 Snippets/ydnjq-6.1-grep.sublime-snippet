@@ -1,0 +1,13 @@
+<snippet>
+	<tabTrigger>grep</tabTrigger>
+	<description>YDNjQ - Grep / $.grep(array, (value, index) => {  })</description>
+	<content><![CDATA[
+// jQuery
+// \$.grep(array, (value, index) => {
+// });
+
+// Native
+array.filter((value, index) => {
+});
+]]></content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>remove</tabTrigger>
+	<description>YDNjQ - Remove / $el.remove()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.remove();
+
+// Native
+el.parentNode.removeChild(el);
+]]></content>
+</snippet>

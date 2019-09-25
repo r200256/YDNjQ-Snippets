@@ -1,0 +1,15 @@
+<snippet>
+	<tabTrigger>append</tabTrigger>
+	<description>YDNjQ - Append / $parent.append(newEl | '&lt;div id="container"&gt;Hello World&lt;/div&gt;')</description>
+	<content><![CDATA[
+// jQuery: unified syntax for DOMString and Node objects
+// \$parent.append(newEl | '<div id="container">Hello World</div>');
+
+// Native: different syntax
+parent.insertAdjacentHTML('beforeend', '<div id="container">Hello World</div>');
+parent.appendChild(newEl);
+
+// Native (ES6-way): unified syntax
+parent.append(newEl | '<div id="container">Hello World</div>');
+]]></content>
+</snippet>

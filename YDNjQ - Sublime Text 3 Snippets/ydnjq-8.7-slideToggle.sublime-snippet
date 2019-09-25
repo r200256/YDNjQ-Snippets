@@ -1,0 +1,18 @@
+<snippet>
+	<tabTrigger>slideToggle</tabTrigger>
+	<description>YDNjQ - SlideToggle / $el.slideToggle()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.slideToggle();
+
+// Native
+const originHeight = '100px';
+el.style.transition = 'height 3s';
+const { height } = el.ownerDocument.defaultView.getComputedStyle(el, null);
+if (parseInt(height, 10) === 0) {
+  el.style.height = originHeight;
+} else {
+ el.style.height = '0px';
+}
+]]></content>
+</snippet>

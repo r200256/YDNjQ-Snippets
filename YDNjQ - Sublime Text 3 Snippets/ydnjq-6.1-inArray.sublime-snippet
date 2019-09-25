@@ -1,0 +1,14 @@
+<snippet>
+	<tabTrigger>inArray</tabTrigger>
+	<description>YDNjQ - inArray / $.inArray(item, array)</description>
+	<content><![CDATA[
+// jQuery
+// \$.inArray(item, array);
+
+// Native
+array.indexOf(item) > -1;
+
+// ES6-way
+array.includes(item);
+]]></content>
+</snippet>

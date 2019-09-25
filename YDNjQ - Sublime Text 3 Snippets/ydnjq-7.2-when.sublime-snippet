@@ -1,0 +1,12 @@
+<snippet>
+	<tabTrigger>when</tabTrigger>
+	<description>YDNjQ - When / $.when(\$promise1, \$promise2).done((promise1Result, promise2Result) => {  })</description>
+	<content><![CDATA[
+// jQuery
+// \$.when(\$promise1, \$promise2).done((promise1Result, promise2Result) => {
+// });
+
+// Native
+Promise.all([\$promise1, \$promise2]).then([promise1Result, promise2Result] => {});
+]]></content>
+</snippet>

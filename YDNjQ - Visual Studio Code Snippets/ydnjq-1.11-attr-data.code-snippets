@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "attr-data",
+		"prefix": "data",
 		"body": [
 "// jQuery",
 "// $$el.data('foo');",

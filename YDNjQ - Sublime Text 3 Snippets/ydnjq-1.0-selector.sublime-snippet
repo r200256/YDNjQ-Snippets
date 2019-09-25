@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>selector</tabTrigger>
+	<description>YDNjQ - Query by selector / $('selector')</description>
+	<content><![CDATA[
+// jQuery
+// \$('selector');
+
+// Native
+document.querySelectorAll('selector');
+]]></content>
+</snippet>

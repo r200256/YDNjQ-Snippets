@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>proxy</tabTrigger>
+	<description>YDNjQ - Proxy / $.proxy(fn, context)</description>
+	<content><![CDATA[
+// jQuery
+// \$.proxy(fn, context);
+
+// Native
+fn.bind(context);
+]]></content>
+</snippet>

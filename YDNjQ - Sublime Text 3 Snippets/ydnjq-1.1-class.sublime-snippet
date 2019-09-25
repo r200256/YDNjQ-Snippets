@@ -1,0 +1,14 @@
+<snippet>
+	<tabTrigger>class</tabTrigger>
+	<description>YDNjQ - Query by class / $('.class')</description>
+	<content><![CDATA[
+// jQuery
+// \$('.class');
+
+// Native
+document.querySelectorAll('.class');
+
+// or
+document.getElementsByClassName('class');
+]]></content>
+</snippet>

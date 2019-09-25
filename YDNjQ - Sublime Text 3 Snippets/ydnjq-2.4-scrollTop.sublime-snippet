@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>scrollTop</tabTrigger>
+	<description>YDNjQ - Scroll Top / $(window).scrollTop()</description>
+	<content><![CDATA[
+// jQuery
+// \$(window).scrollTop();
+
+// Native
+(document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+]]></content>
+</snippet>

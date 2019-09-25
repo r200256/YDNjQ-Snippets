@@ -1,0 +1,16 @@
+<snippet>
+	<tabTrigger>contains</tabTrigger>
+	<description>YDNjQ - Selector containing string (case-sensitive) / $("selector:contains('text')")</description>
+	<content><![CDATA[
+// jQuery
+// \$("selector:contains('text')");
+
+// Native
+function contains(selector, text) {
+  var elements = document.querySelectorAll(selector);
+  return Array.from(elements).filter(function(element) {
+    return RegExp(text).test(element.textContent);
+  });
+}
+]]></content>
+</snippet>

@@ -1,0 +1,25 @@
+{
+	"ydnjq": {
+		"prefix": "fadeOut",
+		"body": [
+"// jQuery",
+"// $$el.fadeOut(3000);",
+"",
+"// Native fadeOut",
+"function fadeOut(el, ms) {",
+"  if (ms) {",
+"    el.style.transition = `opacity \\${ms} ms`;",
+"    el.addEventListener(",
+"      'transitionend',",
+"      function(event) {",
+"        el.style.display = 'none';",
+"      },",
+"      false",
+"    );",
+"  }",
+"  el.style.opacity = '0';",
+"}",
+		],
+		"description": "YDNjQ - FadeIn & FadeOut"
+	}
+}

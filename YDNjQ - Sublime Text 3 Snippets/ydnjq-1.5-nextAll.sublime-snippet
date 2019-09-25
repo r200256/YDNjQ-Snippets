@@ -1,0 +1,25 @@
+<snippet>
+	<tabTrigger>nextAll</tabTrigger>
+	<description>YDNjQ - All next siblings / $el.nextAll($filter)</description>
+	<content><![CDATA[
+// jQuery (optional selector filter)
+// \$el.nextAll($filter);
+
+// Native (optional filter function)
+function getNextSiblings(elem, filter) {
+  var sibs = [];
+  var nextElem = elem.parentNode.firstChild;
+  do {
+    if (nextElem.nodeType === 3) continue; // ignore text nodes
+    if (nextElem === elem) continue; // ignore elem of target
+    if (nextElem === elem.nextElementSibling) {
+      if (!filter || filter(elem)) {
+        sibs.push(nextElem);
+        elem = nextElem;
+      }
+    }
+  } while(nextElem = nextElem.nextSibling)
+  return sibs;
+}
+]]></content>
+</snippet>

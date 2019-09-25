@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>prev</tabTrigger>
+	<description>YDNjQ - Previous sibling / $el.prev()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.prev();
+
+// Native
+el.previousElementSibling;
+]]></content>
+</snippet>

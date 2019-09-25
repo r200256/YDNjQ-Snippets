@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>body</tabTrigger>
+	<description>YDNjQ - Get body / $('body')</description>
+	<content><![CDATA[
+// jQuery
+// \$('body');
+
+// Native
+document.body;
+]]></content>
+</snippet>

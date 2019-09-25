@@ -1,0 +1,17 @@
+<snippet>
+	<tabTrigger>wrap</tabTrigger>
+	<description>YDNjQ - Wrap / $('.inner').wrap('&lt;div class="wrapper"&gt;&lt;/div&gt;')</description>
+	<content><![CDATA[
+// jQuery
+// \$('.inner').wrap('<div class="wrapper"></div>');
+
+// Native
+Array.from(document.querySelectorAll('.inner')).forEach((el) => {
+  const wrapper = document.createElement('div');
+  wrapper.className = 'wrapper';
+  el.parentNode.insertBefore(wrapper, el);
+  el.parentNode.removeChild(el);
+  wrapper.appendChild(el);
+});
+]]></content>
+</snippet>

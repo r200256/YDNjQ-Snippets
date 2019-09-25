@@ -1,0 +1,19 @@
+<snippet>
+	<tabTrigger>height</tabTrigger>
+	<description>YDNjQ - Document height / $(document).height()</description>
+	<content><![CDATA[
+// jQuery
+// \$(document).height();
+
+// Native
+const body = document.body;
+const html = document.documentElement;
+const height = Math.max(
+  body.offsetHeight,
+  body.scrollHeight,
+  html.clientHeight,
+  html.offsetHeight,
+  html.scrollHeight
+);
+]]></content>
+</snippet>

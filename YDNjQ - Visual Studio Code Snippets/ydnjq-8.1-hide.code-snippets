@@ -1,0 +1,13 @@
+{
+	"ydnjq": {
+		"prefix": "hide",
+		"body": [
+"// jQuery",
+"// $$el.hide();",
+"",
+"// Native",
+"el.style.display = 'none';",
+		],
+		"description": "YDNjQ - Hide"
+	}
+}

@@ -1,0 +1,17 @@
+<snippet>
+	<tabTrigger>insertAfter</tabTrigger>
+	<description>YDNjQ - insertAfter / $newEl.insertAfter(selector)</description>
+	<content><![CDATA[
+// jQuery
+// \$newEl.insertAfter(selector);
+
+// Native (HTML string)
+el.insertAdjacentHTML('afterend', '<div id="container">Hello World</div>');
+
+// Native (Element)
+const el = document.querySelector(selector);
+if (el.parentNode) {
+  el.parentNode.insertBefore(newEl, el.nextSibling);
+}
+]]></content>
+</snippet>

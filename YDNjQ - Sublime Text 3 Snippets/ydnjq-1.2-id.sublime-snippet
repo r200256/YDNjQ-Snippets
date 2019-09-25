@@ -1,0 +1,17 @@
+<snippet>
+	<tabTrigger>id</tabTrigger>
+	<description>YDNjQ - Query by id / $('#id')</description>
+	<content><![CDATA[
+// jQuery
+// \$('#id');
+
+// Native
+document.querySelector('#id');
+
+// or
+document.getElementById('id');
+
+// or
+window['id']
+]]></content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>trim</tabTrigger>
+	<description>YDNjQ - Trim / $.trim(string)</description>
+	<content><![CDATA[
+// jQuery
+// \$.trim(string);
+
+// Native
+string.trim();
+]]></content>
+</snippet>

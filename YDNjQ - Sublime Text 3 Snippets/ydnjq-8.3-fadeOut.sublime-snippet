@@ -1,0 +1,23 @@
+<snippet>
+	<tabTrigger>fadeOut</tabTrigger>
+	<description>YDNjQ - FadeOut / $el.fadeIn(3000)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.fadeOut(3000);
+
+// Native fadeOut
+function fadeOut(el, ms) {
+  if (ms) {
+    el.style.transition = `opacity \${ms} ms`;
+    el.addEventListener(
+      'transitionend',
+      function(event) {
+        el.style.display = 'none';
+      },
+      false
+    );
+  }
+  el.style.opacity = '0';
+}
+]]></content>
+</snippet>

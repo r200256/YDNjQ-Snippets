@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "iframe-query",
+		"prefix": "contents",
 		"body": [
 "// jQuery",
 "// $$iframe.contents().find('.css');",

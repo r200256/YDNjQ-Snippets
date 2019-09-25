@@ -1,0 +1,16 @@
+{
+	"ydnjq": {
+		"prefix": "slideDown",
+		"body": [
+"// jQuery",
+"// $$el.slideDown();",
+"",
+"// Native",
+"const originHeight = '100px';",
+"el.style.transition = 'height 3s';",
+"// slideDown",
+"el.style.height = originHeight;",
+		],
+		"description": "YDNjQ - SlideDown"
+	}
+}

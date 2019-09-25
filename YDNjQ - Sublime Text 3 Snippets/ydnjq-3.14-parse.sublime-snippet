@@ -1,0 +1,28 @@
+<snippet>
+	<tabTrigger>parse</tabTrigger>
+	<description>YDNjQ - Simple parse</description>
+	<content><![CDATA[
+// jQuery
+// \$(`<ol>
+//   <li>a</li>
+//   <li>b</li>
+// </ol>
+// <ol>
+//   <li>c</li>
+//   <li>d</li>
+// </ol>`);
+
+// Native
+range = document.createRange();
+parse = range.createContextualFragment.bind(range);
+
+parse(`<ol>
+  <li>a</li>
+  <li>b</li>
+</ol>
+<ol>
+  <li>c</li>
+  <li>d</li>
+</ol>`);
+]]></content>
+</snippet>

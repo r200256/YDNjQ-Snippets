@@ -1,0 +1,17 @@
+<snippet>
+	<tabTrigger>isFunction</tabTrigger>
+	<description>YDNjQ - isFunction / $.isFunction(item)</description>
+	<content><![CDATA[
+// jQuery
+// \$.isFunction(item);
+
+// Native
+function isFunction(item) {
+  if (typeof item === 'function') {
+    return true;
+  }
+  var type = Object.prototype.toString.call(item);
+  return type === '[object Function]' || type === '[object GeneratorFunction]';
+}
+]]></content>
+</snippet>

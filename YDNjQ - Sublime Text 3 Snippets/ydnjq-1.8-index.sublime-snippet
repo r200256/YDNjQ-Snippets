@@ -1,0 +1,13 @@
+<snippet>
+	<tabTrigger>index</tabTrigger>
+	<description>YDNjQ - Get index of e.currentTarget between .radio / $('.radio').index(e.currentTarget)</description>
+	<content><![CDATA[
+// jQuery
+// \$('.radio').index(e.currentTarget);
+
+// Native
+Array.from(document.querySelectorAll('.radio')).indexOf(e.currentTarget);
+// or
+Array.prototype.indexOf.call(document.querySelectorAll('.radio'), e.currentTarget);
+]]></content>
+</snippet>

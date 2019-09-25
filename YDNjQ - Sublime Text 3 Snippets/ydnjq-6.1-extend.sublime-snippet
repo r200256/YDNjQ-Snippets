@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>extend</tabTrigger>
+	<description>YDNjQ - Extend / $.extend({}, object1, object2)</description>
+	<content><![CDATA[
+// jQuery
+// \$.extend({}, object1, object2);
+
+// Native
+Object.assign({}, object1, object2);
+]]></content>
+</snippet>

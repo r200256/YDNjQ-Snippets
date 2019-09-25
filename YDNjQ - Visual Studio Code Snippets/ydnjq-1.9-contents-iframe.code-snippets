@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "iframe-contents",
+		"prefix": "contents",
 		"body": [
 "// jQuery",
 "// $$iframe.contents();",

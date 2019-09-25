@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>contains</tabTrigger>
+	<description>YDNjQ - Contains / $.contains(el, child)</description>
+	<content><![CDATA[
+// jQuery
+// \$.contains(el, child);
+
+// Native
+el !== child && el.contains(child);
+]]></content>
+</snippet>

@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "exampleFilter",
+		"prefix": "filter",
 		"body": [
 "function exampleFilter(elem) {",
 "  switch (elem.nodeName.toUpperCase()) {",

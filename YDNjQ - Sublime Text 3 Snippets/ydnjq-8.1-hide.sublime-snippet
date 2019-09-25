@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>hide</tabTrigger>
+	<description>YDNjQ - Hide / $.Deferred()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.hide();
+
+// Native
+el.style.display = 'none';
+]]></content>
+</snippet>

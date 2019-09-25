@@ -1,0 +1,12 @@
+<snippet>
+	<tabTrigger>show</tabTrigger>
+	<description>YDNjQ - Show / $.Deferred()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.show();
+
+// Native
+// More detail about show method, please refer to https://github.com/oneuijs/oui-dom-utils/blob/master/src/index.js#L363
+el.style.display = ''|'inline'|'inline-block'|'inline-table'|'block';
+]]></content>
+</snippet>

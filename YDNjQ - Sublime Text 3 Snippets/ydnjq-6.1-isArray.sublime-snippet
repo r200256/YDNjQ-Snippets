@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>isArray</tabTrigger>
+	<description>YDNjQ - isArray / $.isArray(array)</description>
+	<content><![CDATA[
+// jQuery
+// \$.isArray(array);
+
+// Native
+Array.isArray(array);
+]]></content>
+</snippet>

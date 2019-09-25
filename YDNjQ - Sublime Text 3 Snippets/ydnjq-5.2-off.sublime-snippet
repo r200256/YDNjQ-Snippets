@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>off</tabTrigger>
+	<description>YDNjQ - Unbind an event with off / $el.off(eventName, eventHandler)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.off(eventName, eventHandler);
+
+// Native
+el.removeEventListener(eventName, eventHandler);
+]]></content>
+</snippet>

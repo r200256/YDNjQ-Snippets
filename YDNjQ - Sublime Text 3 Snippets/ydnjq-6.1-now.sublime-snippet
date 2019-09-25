@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>now</tabTrigger>
+	<description>YDNjQ - Now / $.now()</description>
+	<content><![CDATA[
+// jQuery
+// \$.now();
+
+// Native
+Date.now();
+]]></content>
+</snippet>

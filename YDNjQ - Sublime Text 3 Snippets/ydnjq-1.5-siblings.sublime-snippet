@@ -1,0 +1,21 @@
+<snippet>
+	<tabTrigger>siblings</tabTrigger>
+	<description>YDNjQ - All siblings / $el.siblings()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.siblings();
+
+// Native - latest, Edge13+
+[...el.parentNode.children].filter((child) =>
+  child !== el
+);
+// Native (alternative) - latest, Edge13+
+Array.from(el.parentNode.children).filter((child) =>
+  child !== el
+);
+// Native - IE10+
+Array.prototype.filter.call(el.parentNode.children, (child) =>
+  child !== el
+);
+]]></content>
+</snippet>

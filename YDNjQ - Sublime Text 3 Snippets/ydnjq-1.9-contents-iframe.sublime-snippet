@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>contents</tabTrigger>
+	<description>YDNjQ - Iframe contents / $iframe.contents()</description>
+	<content><![CDATA[
+// jQuery
+// \$iframe.contents();
+
+// Native
+iframe.contentDocument;
+]]></content>
+</snippet>

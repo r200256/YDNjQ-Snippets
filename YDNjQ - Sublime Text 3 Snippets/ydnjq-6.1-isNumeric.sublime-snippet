@@ -1,0 +1,13 @@
+<snippet>
+	<tabTrigger>isNumeric</tabTrigger>
+	<description>YDNjQ - isNumeric / $.isNumeric(item)</description>
+	<content><![CDATA[
+// jQuery
+// \$.isNumeric(item);
+
+// Native
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}
+]]></content>
+</snippet>

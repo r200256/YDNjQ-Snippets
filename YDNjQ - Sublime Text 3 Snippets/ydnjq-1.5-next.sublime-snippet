@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>next</tabTrigger>
+	<description>YDNjQ - Next sibling / $el.next()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.next();
+
+// Native
+el.nextElementSibling;
+]]></content>
+</snippet>

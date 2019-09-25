@@ -1,0 +1,19 @@
+<snippet>
+	<tabTrigger>globaleval</tabTrigger>
+	<description>YDNjQ - Globaleval / $.globaleval(code)</description>
+	<content><![CDATA[
+// jQuery
+// \$.globaleval(code);
+
+// Native
+function Globaleval(code) {
+  const script = document.createElement('script');
+  script.text = code;
+
+  document.head.appendChild(script).parentNode.removeChild(script);
+}
+
+// Use eval, but context of eval is current, context of \$.Globaleval is global.
+eval(code);
+]]></content>
+</snippet>

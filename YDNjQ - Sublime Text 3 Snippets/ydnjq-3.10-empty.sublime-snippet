@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>empty</tabTrigger>
+	<description>YDNjQ - Empty / $el.clone()</description>
+	<content><![CDATA[
+// jQuery
+// \$el.empty();
+
+// Native
+el.innerHTML = null;
+]]></content>
+</snippet>

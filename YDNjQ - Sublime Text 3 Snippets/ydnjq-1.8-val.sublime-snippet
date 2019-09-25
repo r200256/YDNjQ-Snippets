@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>val</tabTrigger>
+	<description>YDNjQ - Input/Textarea value / $('#my-input').val()</description>
+	<content><![CDATA[
+// jQuery
+// \$('#my-input').val();
+
+// Native
+document.querySelector('#my-input').value;
+]]></content>
+</snippet>

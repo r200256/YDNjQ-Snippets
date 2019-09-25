@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>hasClass</tabTrigger>
+	<description>YDNjQ - Has class / $el.hasClass(className)</description>
+	<content><![CDATA[
+// jQuery
+// \$el.hasClass(className);
+
+// Native
+el.classList.contains(className);
+]]></content>
+</snippet>

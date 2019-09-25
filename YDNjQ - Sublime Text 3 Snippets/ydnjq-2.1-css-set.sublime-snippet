@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>css</tabTrigger>
+	<description>YDNjQ - Set style / $el.css({ color: '#f01' })</description>
+	<content><![CDATA[
+// jQuery
+// \$el.css({ color: '#f01' });
+
+// Native
+el.style.color = '#f01';
+]]></content>
+</snippet>

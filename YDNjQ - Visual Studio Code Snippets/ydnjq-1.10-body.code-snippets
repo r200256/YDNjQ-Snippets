@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "get-body",
+		"prefix": "body",
 		"body": [
 "// jQuery",
 "// $('body');",

@@ -1,0 +1,13 @@
+<snippet>
+	<tabTrigger>isEmptyObject</tabTrigger>
+	<description>YDNjQ - isEmptyObject / $.isEmptyObject(obj)</description>
+	<content><![CDATA[
+// jQuery
+// \$.isEmptyObject(obj);
+
+// Native
+function isEmptyObject(obj) {
+  return Object.keys(obj).length === 0;
+}
+]]></content>
+</snippet>

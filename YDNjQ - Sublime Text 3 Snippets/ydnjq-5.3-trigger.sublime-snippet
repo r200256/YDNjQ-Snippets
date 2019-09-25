@@ -1,0 +1,18 @@
+<snippet>
+	<tabTrigger>trigger</tabTrigger>
+	<description>YDNjQ - Trigger / $(el).trigger('custom-event', {key1: 'data'})</description>
+	<content><![CDATA[
+// jQuery
+// \$(el).trigger('custom-event', {key1: 'data'});
+
+// Native
+if (window.CustomEvent) {
+  const event = new CustomEvent('custom-event', {detail: {key1: 'data'}});
+} else {
+  const event = document.createEvent('CustomEvent');
+  event.initCustomEvent('custom-event', true, true, {key1: 'data'});
+}
+
+el.dispatchEvent(event);
+]]></content>
+</snippet>

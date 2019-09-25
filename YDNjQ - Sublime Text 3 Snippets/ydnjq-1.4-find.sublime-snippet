@@ -1,0 +1,11 @@
+<snippet>
+	<tabTrigger>find</tabTrigger>
+	<description>YDNjQ - Query in descendants / $el.find('li')</description>
+	<content><![CDATA[
+// jQuery
+// \$el.find('li');
+
+// Native
+el.querySelectorAll('li');
+]]></content>
+</snippet>

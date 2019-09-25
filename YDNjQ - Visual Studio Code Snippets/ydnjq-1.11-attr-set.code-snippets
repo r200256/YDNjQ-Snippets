@@ -1,6 +1,6 @@
 {
 	"ydnjq": {
-		"prefix": "attr-set",
+		"prefix": "attrset",
 		"body": [
 "// jQuery",
 "// $$el.attr('foo', 'bar');",
